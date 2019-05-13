@@ -1,0 +1,197 @@
+body{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: white;
+ font-size: 1.2rem;
+ line-height: 1.4;
+ margin: 0;
+ 
+ text-align: justify;
+
+ background-image: url('../img/portada.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+}
+.container{
+    width: 85%;
+    max-width: 100%;
+    margin: 0 auto;
+
+    
+}
+
+
+.header{
+    background:#202020;
+    color: white;
+    padding: 2rem 0;
+
+    position: fixed;
+    left: 0;
+    top:0;
+    right: 0;
+    border-radius: 0 0 5px 5px;
+    
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    letter-spacing: 13px;
+    font-size: 1.5em;
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.navigation ul li a:hover{
+    background: #006692;
+    opacity: 0.7;
+}
+.footer{
+   
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 3rem;
+}
+main{
+    padding-top: 8rem;
+}
+.menu-des{
+    display: none;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center; 
+}
+
+td{
+    padding: 9px;
+}
+tr:nth-child(even){
+    background-color: #A3A3A3;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+ 
+}
+section{
+    padding-top: 79px;
+}
+
+.for{
+    padding-left: 250px;
+    padding-top: 50px;
+    
+    height: 477px;
+    color: white;
+    line-height: 1;
+}
+h2{
+    font-weight: normal;
+}
+.div{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+input{
+   border: 3px inset;
+    width: 40%;
+    height: 15px;
+    border-radius: 20px;
+    background: #E4E4E4;
+    font-size: 15px;
+}
+button{
+    width: 10%;
+    height: 30px;
+    border-radius: 50px;
+    background: black;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 850px){
+   
+   
+    .menu-des{
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+    }
+  
+   .navigation ul{
+       display: none;
+   }
+
+   .navigation ul.show{
+       display: block;
+   }
+   
+    .navigation{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .navigation ul li{
+        display: block;
+    }
+    
+    .navigation ul li a{
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    .navigation ul li a:hover{
+        background: #006692;
+    }
+
+    .logo{
+        letter-spacing: 4px;
+        font-size: 1.5em;
+    }
+
+    .for{
+        padding-left: 100px; 
+    }
+
+
+    button{
+        width: 30%;
+        
+    }
+}
+
+
+
+
+
